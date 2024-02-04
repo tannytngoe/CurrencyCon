@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+         <div class="converter">
+           <h1>Currency Converter</h1>
+         </div>
+      <form action="cute">
+         <div class="myform">
+            <label for="amount" class="amount"> Enter Amount</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+         </div>
+          <div class="tofrom">
+            
+            <label for="fromcurrency" class="from">From</label>
+            <label for="tocurrency" class ="to">To</label>
+         </div>
+         <div class="class">
+            <select name="fromCurrency" id="from">
+               <option value="USD">USD</option>
+               <option value="EUR">EUR</option>
+               <option value="RTGS">RTGS</option>
+            </select>
+           
+            <select name="toCurrency" id="to">
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="RTGS">RTGS</option>
+            </select>
+         </div>
+
+         <div class="btn">
+            <button id="convertBtn">Convert</button>
+
+         </div>
+         <div class="myform">
+            <label for="amountconverted" class="convert">ConvertedAmount</label>
+            <input type="number" id="convertedamount" placeholder="Converted amount">
+         </div>
+        
+      </form>
+         
+
+        
+    </div>     
+</body>
+</html>
