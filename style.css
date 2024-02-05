@@ -42,7 +42,7 @@ body{
        margin-right: 70%;
        font-size: large;
        font-weight: bold;
-       color: white;
+       color:black;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -105,7 +105,7 @@ body{
     margin-right: 80%;
     padding-top: 25px;
     font-size: large;
-    color: white ;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
