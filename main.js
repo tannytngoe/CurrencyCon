@@ -4,7 +4,6 @@ const fromCurrencySelect = document.getElementById("from");
 const toCurrencySelect = document.getElementById("to");
 const convertedAmountDisplay = document.getElementById("convertedamount");
 const convertBtn = document.getElementById("convertBtn");
-
 const amount = parseFloat(amountInput.value);
 const fromCurrency = fromCurrencySelect.value;
 const toCurrency = toCurrencySelect.value;
@@ -41,3 +40,9 @@ const convertCurrency = () => {
 };
 
 convertCurrency();
+
+//Notes :
+// Code ngaiite order kkkk use the order yandashandisa { constants => setting up ma listeners => functions}
+// funtions haapinde mune mamwe ma function
+// button iro selectByID
+//Add comments in your code so that I track zvawauchida kuita
