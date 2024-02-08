@@ -18,7 +18,7 @@ fetch(`https://${host}/currencies`)
         const entries = Object.entries(data);
         console.log(entries)
 }
-)
+);
 
 
 
@@ -42,8 +42,9 @@ async function ConvertingMoney () {
 convertBtn.addEventListener ("click" , () =>{
           ConvertingMoney(convertedAmountDisplay.value); 
 
-}) 
-}
+})
+.catch(error =>console.error(error)) ;
+};
 
 
 
